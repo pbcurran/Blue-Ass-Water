@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35206cf9b7d5ab845818d1151b6cd2cc, type: 3}
+  m_Name: Left Wave 1
+  m_EditorClassIdentifier: 
+  enemyGreenPrefab: {fileID: 8740864521756949166, guid: 7f78eb1541e650843ac3c7056619e529,
+    type: 3}
+  enemyRedPrefab: {fileID: 8747586922238037227, guid: 8c99fbbb872a1ef4686564e3ea69072c,
+    type: 3}
+  pathPrefab: {fileID: 2697646065113339683, guid: 688385f9575b11e47a56b5f5426ef014,
+    type: 3}
+  timeUntilSpawn: 0
+  timeBetweenSpawns: 1
+  spawnRandomFactorMin: 0.8
+  spawnRandomFactorMax: 0.8
+  numberOfEnemies: 6
+  moveSpeed: 8
+  hasWaveSpawned: 0

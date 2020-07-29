@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35206cf9b7d5ab845818d1151b6cd2cc, type: 3}
+  m_Name: Right Wave 2
+  m_EditorClassIdentifier: 
+  enemyGreenPrefab: {fileID: 5261276000481768852, guid: e9ec59311a579f441b0ff4a3853dc571,
+    type: 3}
+  enemyRedPrefab: {fileID: 5839938529711836191, guid: f2087e3c121ac5b4ba6b3b3174247614,
+    type: 3}
+  pathPrefab: {fileID: 2164830887865368509, guid: 7cf3d382335a60f46a0cbe4ebe3acdfc,
+    type: 3}
+  timeUntilSpawn: 12
+  timeBetweenSpawns: 1
+  spawnRandomFactorMin: 0.8
+  spawnRandomFactorMax: 0.8
+  numberOfEnemies: 3
+  moveSpeed: 8
+  hasWaveSpawned: 0

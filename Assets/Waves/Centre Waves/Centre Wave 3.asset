@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35206cf9b7d5ab845818d1151b6cd2cc, type: 3}
+  m_Name: Centre Wave 3
+  m_EditorClassIdentifier: 
+  enemyGreenPrefab: {fileID: 5003929590780599312, guid: 6574d776e38cb144597cba89e0d6fc9c,
+    type: 3}
+  enemyRedPrefab: {fileID: 3238600144717356618, guid: 5dae89af9aa5b6143bc4a6557cbf0fe7,
+    type: 3}
+  pathPrefab: {fileID: 8258541529714993903, guid: e337eb629b8891944a445d2bf2efd4e1,
+    type: 3}
+  timeUntilSpawn: 16
+  timeBetweenSpawns: 1
+  spawnRandomFactorMin: 0.8
+  spawnRandomFactorMax: 0.8
+  numberOfEnemies: 6
+  moveSpeed: 8
+  hasWaveSpawned: 0
